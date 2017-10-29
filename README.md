@@ -1,27 +1,60 @@
-# DockerAngular
+# docker-angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+[![License][license-badge]][license-url]
 
-## Development server
+> A playground for Docker with Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Development
 
-## Code scaffolding
+* Cloning the repo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+$ git clone https://github.com/robertoachar/docker-angular.git
+```
 
-## Build
+* Installing dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```bash
+$ npm install
+```
 
-## Running unit tests
+* Running scripts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Action | Usage
+---    | ---
+Starting development mode | `npm start`
+Linting code              | `npm run lint`
+Running unit tests        | `npm test`
+Running e2e tests         | `npm run e2e`
+Build                     | `npm run build`
 
-## Running end-to-end tests
+# Docker
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Build image
 
-## Further help
+```bash
+$ docker-compose build
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Start image
+
+```bash
+$ docker-compose up
+```
+
+* Stop image
+
+```bash
+$ docker-compose down
+```
+
+# Author
+
+[Roberto Achar](https://twitter.com/robertoachar)
+
+# License
+
+[MIT](https://github.com/robertoachar/docker-angular/blob/master/LICENSE)
+
+[license-badge]: https://img.shields.io/github/license/robertoachar/docker-angular.svg
+[license-url]: https://opensource.org/licenses/MIT
