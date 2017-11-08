@@ -1,7 +1,15 @@
 {
   "name": "docker-angular",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A playground for Docker with Angular.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/docker-angular#readme",
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "angular",
+    "live-reload"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --poll",
@@ -10,7 +18,13 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/docker-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/docker-angular/issues"
+  },
   "dependencies": {
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
@@ -45,5 +59,7 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.3.3"
-  }
+  },
+  "private": true,
+  "license": "MIT"
 }
