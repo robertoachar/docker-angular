@@ -30,19 +30,19 @@ Build                     | `npm run build`
 
 # Docker
 
-* Build image
+* Building an image
 
 ```bash
 $ docker-compose build
 ```
 
-* Start image
+* Running a container
 
 ```bash
 $ docker-compose up
 ```
 
-* Stop image
+* Stopping a container
 
 ```bash
 $ docker-compose down
